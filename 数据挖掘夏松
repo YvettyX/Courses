@@ -1,0 +1,24 @@
+1.统计文本出现频率最高的10个词汇
+f=open(r"C:\Users\123\Desktop\123.txt")
+lines=f.readlines()
+separator=[',','.','?']
+words=[]
+d={}
+for i in lines:
+    i=i.lower()
+    i=i.replace(',',' ')
+    i=i.replace('.',' ')
+    word=i.split(' ')
+    words.extend(word)
+d=d.fromkeys(words)
+del[d['']]
+counter=list(d.keys())
+for i in counter:
+    d[i]=words.count(i)
+counter=sorted(d.items(),key=lambda x:x[1],reverse=True)
+counter=counter[:10]
+print(counter
+
+参考代码：
+
+2.计算方阵对角线？？？
