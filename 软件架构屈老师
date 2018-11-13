@@ -20,3 +20,4 @@ SOA的落地————企业服务规范ESB中定义了一个规范，体现�
 
 
 作业：可以在一个服务器上装多个软件，配置nginx当做www，写一个很简单的内容（字符串、链接生成动态内容访问tomcat），访问静态时，访问nginx，动态是tomcat。
+作业文档：在Linux下安装nginx和tomcat,写一个简单程序部署在tomcat;用户看到的是nginx www服务器；当用户访问静态内容时，nginx提供服务，访问对应动态内容的链接时，由nginx转发给tomcat处理。
