@@ -34,6 +34,16 @@ raid0/1/5（基础）raid6（升级）raid(10/50/60)组合
 1.为了解决重用的问题，我们设计了面向对象->微服务->g-architecher的复用
 2.经典的风格：1.管道和过滤器
 
+作业：1.中文文章：rest架构（fill博士毕业论文）由两个人完成（一个人讲、一个人用java写rest文件，前端调用它）
+2.o-oauth协议 讲解+例子
+
+
+11.26
+袁梓倩pre：REST架构风格（representative state transfer）
+REST表述性状态转移
+表述的定义：
+rest元素间如何通信：
+
 https://www.cnblogs.com/taiyonghai/p/6728707.html
 https://www.cnblogs.com/jimcsharp/p/8252054.html
 
